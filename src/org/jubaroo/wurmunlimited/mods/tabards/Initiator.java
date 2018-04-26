@@ -22,23 +22,23 @@ public class Initiator implements WurmServerMod, ServerStartedListener, ItemTemp
     }
 
     public void configure(Properties properties) {
-
-        Constants.jennTabardId = Integer.parseInt(properties.getProperty("jennTabardId", Integer.toString(Constants.jennTabardId)));
-        Constants.zjenTabardId = Integer.parseInt(properties.getProperty("zjenTabardId", Integer.toString(Constants.zjenTabardId)));
-        Constants.dreaTabardId = Integer.parseInt(properties.getProperty("dreaTabardId", Integer.toString(Constants.dreaTabardId)));
-        Constants.pandTabardId = Integer.parseInt(properties.getProperty("pandTabardId", Integer.toString(Constants.pandTabardId)));
-        Constants.thecTabardId = Integer.parseInt(properties.getProperty("thecTabardId", Integer.toString(Constants.thecTabardId)));
-        Constants.therTabardId = Integer.parseInt(properties.getProperty("therTabardId", Integer.toString(Constants.therTabardId)));
-        Constants.hotsTabardId = Integer.parseInt(properties.getProperty("hotsTabardId", Integer.toString(Constants.hotsTabardId)));
-        Constants.yvalTabardId = Integer.parseInt(properties.getProperty("yvalTabardId", Integer.toString(Constants.yvalTabardId)));
-        Constants.blacTabardId = Integer.parseInt(properties.getProperty("blacTabardId", Integer.toString(Constants.blacTabardId)));
-        Constants.ebonTabardId = Integer.parseInt(properties.getProperty("ebonTabardId", Integer.toString(Constants.ebonTabardId)));
-        Constants.abraTabardId = Integer.parseInt(properties.getProperty("abraTabardId", Integer.toString(Constants.abraTabardId)));
-        Constants.molrTabardId = Integer.parseInt(properties.getProperty("molrTabardId", Integer.toString(Constants.molrTabardId)));
-        Constants.empiTabardId = Integer.parseInt(properties.getProperty("empiTabardId", Integer.toString(Constants.empiTabardId)));
-        Constants.kosTabardId  = Integer.parseInt(properties.getProperty("kosTabardId",  Integer.toString(Constants.kosTabardId)));
-        Constants.valhTabardId = Integer.parseInt(properties.getProperty("valhTabardId", Integer.toString(Constants.valhTabardId)));
-        Constants.maceTabardId = Integer.parseInt(properties.getProperty("maceTabardId", Integer.toString(Constants.maceTabardId)));
-        Constants.wurmTabardId = Integer.parseInt(properties.getProperty("wurmTabardId", Integer.toString(Constants.wurmTabardId)));
+        Constants.jennTabardId = Integer.parseInt(properties.getProperty("jennTabardId"));
+        Constants.zjenTabardId = Integer.parseInt(properties.getProperty("zjenTabardId"));
+        Constants.dreaTabardId = Integer.parseInt(properties.getProperty("dreaTabardId"));
+        Constants.pandTabardId = Integer.parseInt(properties.getProperty("pandTabardId"));
+        Constants.thecTabardId = Integer.parseInt(properties.getProperty("thecTabardId"));
+        Constants.therTabardId = Integer.parseInt(properties.getProperty("therTabardId"));
+        Constants.hotsTabardId = Integer.parseInt(properties.getProperty("hotsTabardId"));
+        Constants.yvalTabardId = Integer.parseInt(properties.getProperty("yvalTabardId"));
+        Constants.blacTabardId = Integer.parseInt(properties.getProperty("blacTabardId"));
+        Constants.ebonTabardId = Integer.parseInt(properties.getProperty("ebonTabardId"));
+        Constants.abraTabardId = Integer.parseInt(properties.getProperty("abraTabardId"));
+        Constants.molrTabardId = Integer.parseInt(properties.getProperty("molrTabardId"));
+        Constants.empiTabardId = Integer.parseInt(properties.getProperty("empiTabardId"));
+        Constants.kosTabardId  = Integer.parseInt(properties.getProperty("kosTabardId"));
+        Constants.valhTabardId = Integer.parseInt(properties.getProperty("valhTabardId"));
+        Constants.maceTabardId = Integer.parseInt(properties.getProperty("maceTabardId"));
+        Constants.wurmTabardId = Integer.parseInt(properties.getProperty("wurmTabardId"));
+        Constants.legiTabardId = Integer.parseInt(properties.getProperty("legiTabardId"));
     }
 }

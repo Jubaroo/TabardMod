@@ -20,6 +20,7 @@ public class Constants {
     public static int valhTabardId;
     public static int maceTabardId;
     public static int wurmTabardId;
+    public static int legiTabardId;
 
     public Constants() {
     }
