@@ -21,6 +21,8 @@ public class Constants {
     public static int maceTabardId;
     public static int wurmTabardId;
     public static int legiTabardId;
+    public static boolean tabardCrafting;
+    public static boolean toggleTabards;
 
     public Constants() {
     }

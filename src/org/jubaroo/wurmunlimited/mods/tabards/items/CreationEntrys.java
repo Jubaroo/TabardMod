@@ -8,8 +8,8 @@ import com.wurmonline.server.skills.SkillList;
 import org.jubaroo.wurmunlimited.mods.tabards.configurator.Constants;
 
 public class CreationEntrys {
-    public CreationEntrys() {
 
+    public CreationEntrys() {
         CreationEntryCreator.createSimpleEntry(SkillList.CLOTHTAILORING, ItemList.needleIron, ItemList.clothYard, Constants.jennTabardId, false, true, 0.0F, false, false, CreationCategories.CLOTHES);
         CreationEntryCreator.createSimpleEntry(SkillList.CLOTHTAILORING, ItemList.needleCopper, ItemList.clothYard, Constants.jennTabardId, false, true, 0.0F, false, false, CreationCategories.CLOTHES);
         CreationEntryCreator.createSimpleEntry(SkillList.CLOTHTAILORING, ItemList.needleIron, ItemList.clothYard, Constants.zjenTabardId, false, true, 0.0F, false, false, CreationCategories.CLOTHES);
@@ -47,4 +47,5 @@ public class CreationEntrys {
         CreationEntryCreator.createSimpleEntry(SkillList.CLOTHTAILORING, ItemList.needleIron, ItemList.clothYard, Constants.legiTabardId, false, true, 0.0F, false, false, CreationCategories.CLOTHES);
         CreationEntryCreator.createSimpleEntry(SkillList.CLOTHTAILORING, ItemList.needleCopper, ItemList.clothYard, Constants.legiTabardId, false, true, 0.0F, false, false, CreationCategories.CLOTHES);
     }
+
 }

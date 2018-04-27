@@ -14,11 +14,11 @@ import java.util.Properties;
 public class Initiator implements WurmServerMod, ServerStartedListener, ItemTemplatesCreatedListener, Configurable {
 
     public void onItemTemplatesCreated() {
-        new ItemTemplateCreatorJubaroo();
+        if (Constants.toggleTabards) { new ItemTemplateCreatorJubaroo(); }
     }
 
     public void onServerStarted() {
-        new CreationEntrys();
+        if (Constants.tabardCrafting) { new CreationEntrys(); }
     }
 
     public void configure(Properties properties) {
@@ -40,5 +40,8 @@ public class Initiator implements WurmServerMod, ServerStartedListener, ItemTemp
         Constants.maceTabardId = Integer.parseInt(properties.getProperty("maceTabardId"));
         Constants.wurmTabardId = Integer.parseInt(properties.getProperty("wurmTabardId"));
         Constants.legiTabardId = Integer.parseInt(properties.getProperty("legiTabardId"));
+        Constants.tabardCrafting = Boolean.valueOf(properties.getProperty("tabardCrafting", String.valueOf(true)));
+        Constants.toggleTabards = Boolean.valueOf(properties.getProperty("toggleTabards", String.valueOf(true)));
     }
+
 }
