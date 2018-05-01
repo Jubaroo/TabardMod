@@ -13,13 +13,9 @@ import java.util.Properties;
 
 public class Initiator implements WurmServerMod, ServerStartedListener, ItemTemplatesCreatedListener, Configurable {
 
-    public void onItemTemplatesCreated() {
-        if (Constants.toggleTabards) { new ItemTemplateCreatorJubaroo(); }
-    }
+    public void onItemTemplatesCreated() { if (Constants.toggleTabards) { new ItemTemplateCreatorJubaroo(); } }
 
-    public void onServerStarted() {
-        if (Constants.tabardCrafting) { new CreationEntrys(); }
-    }
+    public void onServerStarted() { if (Constants.tabardCrafting) { new CreationEntrys(); } }
 
     public void configure(Properties properties) {
         Constants.jennTabardId = Integer.parseInt(properties.getProperty("jennTabardId"));
