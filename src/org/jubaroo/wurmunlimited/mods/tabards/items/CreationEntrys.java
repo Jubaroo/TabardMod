@@ -6,7 +6,7 @@ import com.wurmonline.server.items.CreationEntryCreator;
 import static com.wurmonline.server.items.CreationCategories.CLOTHES;
 import static com.wurmonline.server.items.ItemList.*;
 import static com.wurmonline.server.skills.SkillList.CLOTHTAILORING;
-import static org.jubaroo.wurmunlimited.mods.tabards.configurator.Constants.*;
+import static org.jubaroo.wurmunlimited.mods.tabards.Initiator.*;
 
 public class CreationEntrys {
 

@@ -6,6 +6,7 @@
 
 - Added the option to toggle the ability for player to craft. Useful to make them GM spawn only for prizes, events, etc.
 - Added optional logging for the mod.
+- Fixed crafting window issue due to duplicate item ID
 
 **Version 1.1**
 

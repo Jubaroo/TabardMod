@@ -10,13 +10,13 @@ import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import static org.jubaroo.wurmunlimited.mods.tabards.configurator.Constants.*;
+import static org.jubaroo.wurmunlimited.mods.tabards.Initiator.*;
 
 
 public class ItemTemplateCreatorJubaroo implements ItemTypes, BehaviourList, ItemMaterials {
 
     public ItemTemplateCreatorJubaroo() {
-        final Logger logger = Logger.getLogger(ItemTemplateCreatorJubaroo.class.getName() + " v1.4");
+        final Logger logger = Logger.getLogger(ItemTemplateCreatorJubaroo.class.getName() + " v1.2");
 
         try {
         ItemTemplateCreator.createItemTemplate(jennTabardId, "Jenn-Kellon tabard", "kingdom tabards", "excellent", "good", "ok", "poor", "A tabard that is worn to show off which kingdom you belong to.", new short[] { ITEM_TYPE_CLOTH, ITEM_TYPE_REPAIRABLE }, (short) 307, itemBehaviour, 0, 3024000L, 30, 30, 5, -10, new byte[] { 35 }, "model.clothing.tabard.jenn.", 25.0f, 300, MATERIAL_COTTON);
@@ -104,7 +104,7 @@ public class ItemTemplateCreatorJubaroo implements ItemTypes, BehaviourList, Ite
             logger.log(Level.SEVERE, "Could not create Wurm tabard.", var17);
         }
         try {
-            ItemTemplateCreator.createItemTemplate(wurmTabardId, "Legion of Anubis tabard", "kingdom tabards", "excellent", "good", "ok", "poor", "A tabard that is worn to show off which kingdom you belong to.", new short[] { ITEM_TYPE_CLOTH, ITEM_TYPE_REPAIRABLE }, (short) 307, itemBehaviour, 0, 3024000L, 30, 30, 5, -10, new byte[] { 35 }, "model.clothing.tabard.legi.", 25.0f, 300, MATERIAL_COTTON);
+            ItemTemplateCreator.createItemTemplate(legiTabardId, "Legion of Anubis tabard", "kingdom tabards", "excellent", "good", "ok", "poor", "A tabard that is worn to show off which kingdom you belong to.", new short[] { ITEM_TYPE_CLOTH, ITEM_TYPE_REPAIRABLE }, (short) 307, itemBehaviour, 0, 3024000L, 30, 30, 5, -10, new byte[] { 35 }, "model.clothing.tabard.legi.", 25.0f, 300, MATERIAL_COTTON);
         } catch (IOException var18) {
             logger.log(Level.SEVERE, "Could not create Legion of Anubis tabard.", var18);
         }
